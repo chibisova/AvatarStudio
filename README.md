@@ -14,6 +14,8 @@ The project has two parts:
 
 > Work in progress.
 
+![AvatarStudio viewer](docs/screenshot.png)
+
 ## Repository layout
 
 ```
