@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Qt Creator
+.qtcreator/
+*.user
+*.user.*
+.qtc_clangd/
+
+# CMake build output
+build/
+cmake-build-*/
+CMakeLists.txt.user
+
+# Compiled object files
+*.o
+
+# Upstream MHR clone (install separately: github.com/facebookresearch/MHR)
+MHR/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pixi/
+.pytest_cache/
+
+# Unused meshes (kept locally, not referenced by code)
+models/mhr_assets_lod0.obj
+models/mhr_identity1_+0.obj
+models/mhr_identity2_+0.obj
